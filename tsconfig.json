@@ -1,0 +1,38 @@
+{
+    "extends": "./mosaic.jsconfig.json",
+    "compilerOptions": {
+        "target": "es5",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "esnext"
+        ],
+        "allowJs": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "strict": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "module": "esnext",
+        "moduleResolution": "node",
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "noEmit": true,
+        "jsx": "react-jsx",
+        "plugins": [
+            {
+                "name": "@scandipwa/ts-server-plugin"
+            }
+        ]
+    },
+    "include": [
+        "./node_modules/@scandipwa/scandipwa/src/**/*",
+        "./src/**/*",
+        "src/**/*",
+        "node_modules\\@scandipwa\\scandipwa/src/**/*",
+        "node_modules\\.pnpm\\@scandipwa+scandipwa@6.4.0_@babel+core@7.25.2_@babel+plugin-syntax-flow@7.24.7_@babel+core@7._3gnhurneuyeustbiyscggztjvm\\node_modules\\@scandipwa\\scandipwa/src/**/*",
+        "node_modules\\.pnpm\\@scandipwa+scandipwa@6.4.0_@babel+core@7.25.2_@babel+plugin-syntax-flow@7.24.7_@babel+core@7._rqgp47ovicvoloe3bnr6klchaq\\node_modules\\@scandipwa\\scandipwa/src/**/*"
+    ],
+    "exclude": []
+}
